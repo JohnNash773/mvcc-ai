@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Your Name] | Moraine Valley Community College</title>
+    <style>
+        :root {
+            --mvcc-green: #005A36; /* Moraine Valley Green brand approximation */
+            --dark-text: #333333;
+            --light-bg: #f4f7f6;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--dark-text);
+            background-color: var(--light-bg);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-top: 6px solid var(--mvcc-green);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--mvcc-green);
+            font-size: 2.5rem;
+            margin-bottom: 5px;
+        }
+
+        .title-sub {
+            font-size: 1.2rem;
+            color: #666;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+
+        .institution {
+            font-weight: bold;
+            color: var(--mvcc-green);
+            letter-spacing: 0.5px;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e0e0e0;
+            margin: 30px 0;
+        }
+
+        h2 {
+            color: var(--mvcc-green);
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            row-gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--mvcc-green);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #004225;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px auto;
+            }
+            .info-grid {
+                grid-template-columns: 1fr;
+                row-gap: 4px;
+            }
+            .info-label {
+                margin-top: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>[Your Name]</h1>
+            <div class="title-sub">[Your Position/Title, e.g., Instructor of Computer Science]</div>
+            <div class="institution">Moraine Valley Community College</div>
+        </header>
+
+        <hr>
+
+        <section>
+            <h2>Contact Information</h2>
+            <div class="info-grid">
+                <div class="info-label">Office:</div>
+                <div>[Building and Room Number, e.g., Building T, Room T900]</div>
+
+                <div class="info-label">Phone:</div>
+                <div>(708) 974-[Your Extension]</div>
+
+                <div class="info-label">Email:</div>
+                <div><a href="mailto:yourusername@morainevalley.edu">yourusername@morainevalley.edu</a></div>
+                
+                <div class="info-label">Directory:</div>
+                <div><a href="https://campusdirectory.morainevalley.edu/pages/details.html?employeeID=0006997" target="_blank" rel="noopener">Official Campus Profile</a></div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>About Me / Courses</h2>
+            <p style="margin-bottom: 15px;">Welcome to my academic landing page. I am a faculty/staff member at Moraine Valley Community College. Below you will find some of the courses I instruct or resources I manage.</p>
+            
+            <ul>
+                <li><strong>[Course Code, e.g., LAN-101]</strong> - [Course Title]</li>
+                <li><strong>[Course Code, e.g., LAN-102]</strong> - [Course Title]</li>
+                <li><strong>Office Hours:</strong> [Your office hours, e.g., Mon/Wed 2:00 PM - 4:00 PM]</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Student Resources</h2>
+            <ul>
+                <li>Access online coursework via <a href="https://morainevalley.instructure.com" target="_blank" rel="noopener">MVCC Canvas</a></li>
+                <li>Log in to student services at <a href="https://www.morainevalley.edu/login/" target="_blank" rel="noopener">MVConnect</a></li>
+                <li>Academic support and help: <a href="https://ctl.morainevalley.edu" target="_blank" rel="noopener">Center for Teaching & Learning</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 [Your Name] | Moraine Valley Community College</p>
+        </footer>
+    </div>
+
+</body>
+</html>
